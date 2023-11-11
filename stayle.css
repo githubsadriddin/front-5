@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    width: 500px;
+}
+
+.title li {
+    color: #263238;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header h1 {
+    color: #939393;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 7px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background: #FFF;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    border-radius: 5px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.img {
+    margin-left: -50px;
+}
+
+.main h1 {
+    width: 386px;
+    height: 240px;
+    top: 226px;
+    left: 129px;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main p {
+    width: 632px;
+    height: 108px;
+    top: 506px;
+    left: 127px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.main button {
+    width: 438px;
+    height: 118px;
+    top: 675px;
+    left: 129px;
+    border-radius: 15px;
+    background: #263238;
+    margin-top: 61px;
+
+}
+
+.main button span {
+    width: 203px;
+    height: 54px;
+    top: 707px;
+    left: 247px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.Learn {
+    display: flex;
+    justify-content: space-between;
+}
